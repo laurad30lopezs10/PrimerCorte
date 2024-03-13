@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrimerCorte</string>
+    <string name="TextoRegistro">Register below</string>
+    <string name="TextoIngresarEmail" >Enter your e-mail address</string>
+    <string name="checkEmail" >Verify e-mail</string>
+    <string name="passwordvalue" >Create a password</string>
+</resources>

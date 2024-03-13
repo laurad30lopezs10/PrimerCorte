@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TextoRegistro">Registrese a continuacion</string>
+    <string name="app_name">PrimerCorte</string>
+    <string name="TextoIngresarEmail">Ingrese su direccion de correo</string>
+    <string name="checkEmail" >Verificar email</string>
+    <string name="passwordvalue">Crear una contraseña</string>
+</resources>
