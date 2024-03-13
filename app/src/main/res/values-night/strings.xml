@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="TextoRegistro" >Resgiter below</string>
-    <string name="checkEmail" />
+    <string name="checkEmail" >Verify email</string>
+    <string name="VerPassword" >Verify password</string>
+    <string name="TerminarRegistro">Finalice el registro oprimiento el siguente boton</string>
+    <string name="guardaremail" >There are no registered emails</string>
+    <string name="guardarpassword" >There are no password created</string>
 </resources>

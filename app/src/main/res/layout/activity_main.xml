@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="406dp"
-        android:layout_height="76dp"
+        android:layout_width="227dp"
+        android:layout_height="95dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -18,27 +18,28 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022">
+        app:layout_constraintVertical_bias="0.056">
 
         <TextView
             android:id="@+id/TextoRegistro"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="6dp"
             android:layout_weight="1"
             android:text="@string/TextoRegistro"
             android:textSize="34sp"
+            android:textStyle="bold|italic"
             tools:ignore="MissingConstraints"
             tools:text="@string/TextoRegistro" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="415dp"
-        android:layout_height="156dp"
+        android:layout_width="413dp"
+        android:layout_height="146dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="218dp"
         android:layout_marginBottom="519dp"
@@ -55,8 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:contentDescription="@string/TextoIngresarEmail"
-            android:text="Enter your e-mail address"
-            android:textSize="24sp" />
+            android:text="@string/TextoIngresarEmail"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/EmailAddress"
@@ -74,91 +76,88 @@
             android:layout_width="169dp"
             android:layout_height="48dp"
             android:contentDescription="@string/checkEmail"
-            android:text="@string/checkEmail" />
+            android:onClick="cambiarColor"
+            android:text="@string/checkEmail"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="415dp"
-        android:layout_height="176dp"
+        android:layout_width="381dp"
+        android:layout_height="161dp"
         android:layout_marginBottom="319dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textopassword"
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_width="371dp"
+            android:layout_height="43dp"
             android:layout_weight="1"
             android:contentDescription="@string/passwordvalue"
-            android:text="Create a password"
-            android:textSize="24sp" />
+            android:text="@string/passwordvalue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextTextPassword5"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/passwordvalue"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:autofillHints="" />
 
         <Switch
-            android:id="@+id/switch3"
-            android:layout_width="164dp"
+            android:id="@+id/VerPassword"
+            android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Switch" />
+            android:contentDescription="@string/VerPassword"
+            android:minHeight="48dp"
+            android:onClick="Verpassword"
+            android:text="@string/VerPassword"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="231dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="165dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="112dp" />
+        android:layout_width="415dp"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="1dp"
+        tools:ignore="MissingConstraints">
 
         <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/TerminarRegistro"
+            android:onClick="TerminarRegistro"
             app:srcCompat="@android:drawable/checkbox_on_background" />
 
+        <TextView
+            android:id="@+id/showemail"
+            android:layout_width="116dp"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:text="@string/guardaremail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowPassword"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/guardarpassword"
+            android:textStyle="bold" />
     </LinearLayout>
-
-    <TableLayout
-        android:layout_width="409dp"
-        android:layout_height="164dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="566dp">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
