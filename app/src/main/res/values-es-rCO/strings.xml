@@ -11,8 +11,10 @@
     <string name="guardarpassword" >No hay contraseñas creadas</string>
     <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
     <string name="ItemSedes" >Ubication</string>
-    <string name="ItemMesajes" >Mensajes</string>
+    <string name="ItemMesajes" >Noricias</string>
     <string name="ItemLocalizacion" >Localizacion</string>
     <string name="ItemFotoPerfil" >Foto de perfil</string>
     <string name="ItemBloquear">Bloquear</string>
+    <string name="NombreHotel" />
+    <string name="MensajeIntroduccion" >Te damos la bienvenida a nuestra area de zonas humedas tenemos una gran variedad para ti, a contiuacion podras reservar tu espacio en alguna de tu eleccion.</string>
 </resources>

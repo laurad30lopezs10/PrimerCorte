@@ -8,7 +8,9 @@
     <string name="guardarpassword" >There are no password created</string>
     <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
     <string name="ItemSedes" >SEDES</string>
-    <string name="ItemMesajes" >Messages</string>
+    <string name="ItemMesajes" >News</string>
     <string name="ItemLocalizacion" >Location</string>
     <string name="ItemFotoPerfil" >Profile picture</string>
+    <string name="NombreHotel" />
+    <string name="MensajeIntroduccion" />
 </resources>

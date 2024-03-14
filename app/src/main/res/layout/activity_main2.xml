@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/water"
+    tools:context=".MainActivity2" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="345dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/NombreHotel"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:contentDescription="@string/NombreHotel"
+            android:text="@string/NombreHotel" />
+
+        <TextView
+            android:id="@+id/MensajeIntroduccion"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#EAE3E3"
+            android:contentDescription="@string/MensajeIntroduccion"
+            android:fontFamily="casual"
+            android:text="@string/MensajeIntroduccion"
+            android:textColor="#E91E63"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

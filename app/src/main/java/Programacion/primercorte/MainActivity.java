@@ -3,6 +3,7 @@ package Programacion.primercorte;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -23,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
    private EditText EmailAddress;
    private CheckBox EmailCheck;
    private TextView Crearpassword;
-   private TextView guardarEmail;
-   private TextView guardasPassword;
+
 private EditText passwordcreado;
 private ImageButton MenuOpcionesPlus;
     @SuppressLint("MissingInflatedId")
@@ -43,19 +43,6 @@ private ImageButton MenuOpcionesPlus;
         TextoEmail.setTextColor(Color.MAGENTA);
         System.out.println(TextoEmail.getText().toString());
         TextoEmail.setText("Enter your e-mail address");
-
-        guardarEmail = ( TextView) findViewById(R.id.showemail);
-        guardarEmail.setTextSize( 30);
-        guardarEmail.setTextColor(Color.MAGENTA);
-        System.out.println(guardarEmail.getText().toString());
-        guardarEmail.setText("There are no registered emails");
-
-
-        guardasPassword = ( TextView) findViewById(R.id.ShowPassword);
-        guardasPassword .setTextSize( 30);
-        guardasPassword .setTextColor(Color.MAGENTA);
-        System.out.println(guardasPassword .getText().toString());
-        guardasPassword .setText("There are no password created");
 
         passwordcreado=(EditText) findViewById(R.id.password);
         passwordcreado.addTextChangedListener((new TextWatcher() {
@@ -122,11 +109,10 @@ MenuOpcionesPlus.setOnClickListener(new View.OnClickListener() {
     public void Verpassword(View V){
         Crearpassword.setTextColor(Color.GREEN);
     }
-public void TerminarRegistro(View v){
-    guardarEmail.setText(EmailAddress.getText().toString());
-    guardarEmail.setTextColor(Color.GREEN);
-    guardasPassword.setText(passwordcreado.getText().toString());
-    guardasPassword.setTextColor(Color.GREEN);
+public void Lineal_layout(View v){
+    Intent linear=new Intent(this,MainActivity2.class);
+    startActivity(linear);
+
 }
 
 public void popupMenuAcciones(){
