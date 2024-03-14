@@ -6,4 +6,9 @@
     <string name="TerminarRegistro">Finalice el registro oprimiento el siguente boton</string>
     <string name="guardaremail" >There are no registered emails</string>
     <string name="guardarpassword" >There are no password created</string>
+    <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
+    <string name="ItemSedes" >SEDES</string>
+    <string name="ItemMesajes" >Messages</string>
+    <string name="ItemLocalizacion" >Location</string>
+    <string name="ItemFotoPerfil" >Profile picture</string>
 </resources>

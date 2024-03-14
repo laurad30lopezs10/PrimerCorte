@@ -8,54 +8,23 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="227dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="601dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.64"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056">
-
-        <TextView
-            android:id="@+id/TextoRegistro"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="6dp"
-            android:layout_weight="1"
-            android:text="@string/TextoRegistro"
-            android:textSize="34sp"
-            android:textStyle="bold|italic"
-            tools:ignore="MissingConstraints"
-            tools:text="@string/TextoRegistro" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="413dp"
         android:layout_height="146dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="218dp"
-        android:layout_marginBottom="519dp"
+        android:layout_marginBottom="448dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/TextoEmail"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:contentDescription="@string/TextoIngresarEmail"
+            android:fontFamily="casual"
             android:text="@string/TextoIngresarEmail"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -66,19 +35,22 @@
             android:layout_height="48dp"
             android:autofillHints=""
             android:ems="10"
+            android:fontFamily="monospace"
             android:hint="@string/TextoIngresarEmail"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
         <CheckBox
             android:id="@+id/checkEmail"
             android:layout_width="169dp"
             android:layout_height="48dp"
             android:contentDescription="@string/checkEmail"
+            android:fontFamily="casual"
             android:onClick="cambiarColor"
             android:text="@string/checkEmail"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,10 +61,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textopassword"
@@ -100,6 +72,7 @@
             android:layout_height="43dp"
             android:layout_weight="1"
             android:contentDescription="@string/passwordvalue"
+            android:fontFamily="casual"
             android:text="@string/passwordvalue"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -109,10 +82,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:autofillHints=""
             android:ems="10"
+            android:fontFamily="monospace"
             android:hint="@string/passwordvalue"
             android:inputType="textPassword"
-            android:autofillHints="" />
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Switch
             android:id="@+id/VerPassword"
@@ -120,44 +95,88 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/VerPassword"
+            android:fontFamily="casual"
             android:minHeight="48dp"
             android:onClick="Verpassword"
             android:text="@string/VerPassword"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="415dp"
-        android:layout_height="87dp"
+        android:id="@+id/linearLayout4"
+        android:layout_width="419dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        tools:layout_editor_absoluteX="1dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="91dp"
             android:layout_weight="1"
+            android:backgroundTint="#E91E63"
             android:contentDescription="@string/TerminarRegistro"
             android:onClick="TerminarRegistro"
+            android:outlineAmbientShadowColor="#2196F3"
             app:srcCompat="@android:drawable/checkbox_on_background" />
 
         <TextView
             android:id="@+id/showemail"
-            android:layout_width="116dp"
-            android:layout_height="86dp"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:text="@string/guardaremail"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:id="@+id/ShowPassword"
-            android:layout_width="122dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:text="@string/guardarpassword"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
     </LinearLayout>
+
+    <TableRow
+        android:layout_width="405dp"
+        android:layout_height="129dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <ImageButton
+            android:id="@+id/MenuOpciones"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+            android:backgroundTint="#E91E63"
+            android:contentDescription="@string/OpcionesImagenes"
+            android:outlineAmbientShadowColor="#ED81A6"
+            android:outlineSpotShadowColor="#00BCD4"
+            app:srcCompat="@android:drawable/ic_input_add"
+            app:tint="#00BCD4" />
+
+        <TextView
+            android:id="@+id/TextoRegistro"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="@string/TextoRegistro"
+            android:textSize="60sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:text="@string/TextoRegistro" />
+    </TableRow>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
