@@ -14,7 +14,7 @@
     <string name="ItemFotoPerfil">Profile picture</string>
     <string name="NombreHotel">Elegant Suits Hotel</string>
     <string name="MensajeIntroduccion">We welcome you to our wet areas area, we have a great variety for you, then you can reserve your space in one of your choice.</string>
-    <string name="TurcoButton">Turco</string>
+    <string name="TurcoButton">massage room</string>
     <string name="PiscinaButton">Pool</string>
     <string name="SaunaButton">Sauna</string>
     <string name="MenorEdad">Young</string>
@@ -23,5 +23,7 @@
     <string name="TextoPrincipalPiscina">Poll</string>
     <string name="PiscinaPrincipalPiscina" >"         Rules in the pool"</string>
     <string name="AceptarReglas" >I know and agree to comply with the rules</string>
-    <string name="ReglasPiscina" >1. The use of the swimming pool is allowed from 09:00 to 19:00. 2. Animals are not allowed. 3. Access to the pool area is only permitted with flip flops. 4. It is mandatory to take a soapy shower before entering the water. 5. All personal items must be kept in a bag. 6. The use of fins, masks, boats, inflatable mattresses, balls and games in general is prohibited. 7. Music can only be heard with headphones.</string>
+    <string name="textoprincipalMasajes" >Rules in the massage</string>
+    <string name="ReglasEspecificasMasajes" >1. The spa is a place of relaxation and tranquility. Silence is requested. 2. It is mandatory to bring swimwear, appropriate footwear (flip flops for pool/spa use only) and a towel for personal use. We have flip flops for sale and towels for rent at the spa reception if necessary. We recommend the use of a pool cap. 3. Spa Circuit for adults only. Our circuits are only for people over 16 years old. 4. The Spa is a smoke-free place, therefore smoking is not allowed. 5. Nudism is not allowed. 6. The use of the Spa facilities is not recommended for pregnant women and/or people undergoing medical treatment. Consult with staff. 7. It is not permitted to use the facilities under the influence of alcohol, anticoagulants, antihistamines, vasoconstrictors, vasodilators, stimulants, narcotics, drugs and/or tranquilizers.</string>
+    <string name="ReglasPiscina">1. Se permite el uso de la piscina de 09:00 a 19:00 horas. 2. No se permiten animales. 3. Sólo se permite el acceso a la zona de la piscina con chanclas. 4. Es obligatorio darse una ducha con jabón antes de entrar al agua.</string>
 </resources>

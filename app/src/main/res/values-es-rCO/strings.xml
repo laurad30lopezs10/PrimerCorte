@@ -15,7 +15,7 @@
     <string name="ItemBloquear">Bloquear</string>
     <string name="NombreHotel" >Hotel Elegant Suits</string>
     <string name="MensajeIntroduccion" >Te damos la bienvenida a nuestra area de zonas humedas tenemos una gran variedad para ti, a contiuacion podras registrar el increso a algun de nuestras zonas huemdas</string>
-    <string name="TurcoButton" >salamasajes</string>
+    <string name="TurcoButton" >"       sala de masajes/spa"</string>
     <string name="PiscinaButton" >Piscina</string>
     <string name="SaunaButton" >Sauna</string>
     <string name="MenorEdad" >Menor de edad</string>
@@ -24,5 +24,7 @@
     <string name="TextoPrincipalPiscina" >" Piscina"</string>
     <string name="PiscinaPrincipalPiscina" >"         Reglas en la piscina"</string>
     <string name="AceptarReglas" >Conozco y me comprometo a cumplir las reglas</string>
-    <string name="ReglasPiscina" >"1.\tEl uso de la piscina está permitido de 09:00 a 19:00. 2.\tNo se admiten animales. 3.\tEl acceso a la zona de la piscina sólo está permitido con chanclas. 4.\tEs obligatorio darse una ducha enjabonada antes de entrar en el agua. 5.\tTodos los objetos personales deben guardarse en una bolsa. 6.\tSe prohíbe el uso de aletas, máscaras, botes, colchones inflables, pelotas y juegos en general. 7.\tLa música sólo puede escucharse con auriculares. "</string>
+    <string name="ReglasPiscina">1. Se permite el uso de la piscina de 09:00 a 19:00 horas. 2. No se permiten animales. 3. Sólo se permite el acceso a la zona de la piscina con chanclas. 4. Es obligatorio darse una ducha con jabón antes de entrar al agua.</string>
+    <string name="textoprincipalMasajes">reglas en la sala de masajes</string>
+    <string name="ReglasEspecificasMasajes" >1. El spa es un lugar de relax y tranquilidad. Se ruega silencio. 2. Obligatorio llevar ropa de baño, calzado adecuado (chanclas de uso exclusivo piscina/spa) y toalla de uso personal. Tenemos chanclas a la venta y toallas de alquiler en la recepción spa si fuera necesario. Recomendamos el uso de gorro de piscina. 3. Circuito Spa sólo para personas adultas. Nuestros circuitos son sólo para mayores de 16 años. 4. El Spa es un lugar libre de humo, por ello no está permitido fumar.</string>
 </resources>

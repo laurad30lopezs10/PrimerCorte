@@ -7,15 +7,17 @@
     tools:context=".MainActivity3">
 
     <LinearLayout
+        android:id="@+id/linearLayout7"
         android:layout_width="408dp"
         android:layout_height="274dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="2dp"
         android:background="#6FB4CB"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,TextSizeCheck">
@@ -43,11 +45,17 @@
         android:id="@+id/linearLayout6"
         android:layout_width="409dp"
         android:layout_height="452dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
         android:background="#6FB4CB"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="275dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/ReglasPrincipalText"
@@ -60,9 +68,9 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/ReglasEspecificasPiscina"
             android:layout_width="match_parent"
-            android:layout_height="314dp"
+            android:layout_height="wrap_content"
             android:contentDescription="@string/ReglasPiscina"
             android:fontFamily="casual"
             android:text="@string/ReglasPiscina"
