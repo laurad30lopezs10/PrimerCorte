@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
@@ -24,6 +25,24 @@ private  RadioGroup Edades;
         if (Edades.getCheckedRadioButtonId() == R.id.radioMenores) {
             final String text = "Recuerda venir con el acompañamiento de un adulto";
             Toast.makeText(this, text, Toast.LENGTH_LONG).show();}}
+
+    public void ButtonPiscina(View v){
+        Intent linear=new Intent(this,MainActivity3.class);
+        startActivity(linear);
+
+    }
+
+    public void Buttonmasajes(View v){
+        Intent linear=new Intent(this,MainActivity4.class);
+        startActivity(linear);
+
+    }
+
+    public void ButtonSauna(View v){
+        Intent linear=new Intent(this,MainActivity5.class);
+        startActivity(linear);
+
+    }
 
     }
 

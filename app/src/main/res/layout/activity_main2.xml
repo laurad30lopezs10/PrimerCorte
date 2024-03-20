@@ -118,6 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="102dp"
                 android:contentDescription="@string/TurcoButton"
+                android:onClick="Buttonmasajes"
                 app:srcCompat="@drawable/download" />
 
             <ImageButton
@@ -125,6 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="99dp"
                 android:contentDescription="@string/PiscinaButton"
+                android:onClick="ButtonPiscina"
                 app:srcCompat="@drawable/download1"
                 tools:ignore="ImageContrastCheck" />
 
@@ -133,6 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="103dp"
                 android:contentDescription="@string/SaunaButton"
+                android:onClick="ButtonSauna"
                 app:srcCompat="@drawable/download3"
                 tools:ignore="ImageContrastCheck" />
 

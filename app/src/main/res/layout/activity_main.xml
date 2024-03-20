@@ -153,12 +153,15 @@
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="393dp"
+        android:layout_width="384dp"
         android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
         android:background="#6FB4CB"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/MenuOpciones"
@@ -179,7 +182,7 @@
             android:layout_marginBottom="6dp"
             android:layout_weight="1"
             android:contentDescription="@string/TextoRegistro"
-            android:fontFamily="cursive"
+            android:fontFamily="@font/aclonica"
             android:text="@string/TextoRegistro"
             android:textColor="#455A64"
             android:textSize="80sp"

@@ -6,4 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="2dp"
+        android:background="#6FB4CB"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck">
+
+        <TextView
+            android:id="@+id/textiPiscina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/TextoPrincipalPiscina"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/TextoPrincipalPiscina"
+            android:textColor="#AD1457"
+            android:textSize="96sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:contentDescription="@string/PiscinaButton"
+            app:srcCompat="@drawable/download1"
+            tools:ignore="ImageContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="409dp"
+        android:layout_height="452dp"
+        android:background="#6FB4CB"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="275dp">
+
+        <TextView
+            android:id="@+id/ReglasPrincipalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/PiscinaPrincipalPiscina"
+            android:textColor="#AD1457"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:contentDescription="@string/ReglasPiscina"
+            android:fontFamily="casual"
+            android:text="@string/ReglasPiscina"
+            android:textColor="#AD1457"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxReglas"
+            android:layout_width="251dp"
+            android:layout_height="102dp"
+            android:fontFamily="casual"
+            android:text="@string/AceptarReglas"
+            android:textColor="#AD1457"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

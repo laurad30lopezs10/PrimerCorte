@@ -15,10 +15,14 @@
     <string name="ItemBloquear">Bloquear</string>
     <string name="NombreHotel" >Hotel Elegant Suits</string>
     <string name="MensajeIntroduccion" >Te damos la bienvenida a nuestra area de zonas humedas tenemos una gran variedad para ti, a contiuacion podras registrar el increso a algun de nuestras zonas huemdas</string>
-    <string name="TurcoButton" >Turco</string>
+    <string name="TurcoButton" >salamasajes</string>
     <string name="PiscinaButton" >Piscina</string>
     <string name="SaunaButton" >Sauna</string>
     <string name="MenorEdad" >Menor de edad</string>
     <string name="MayorEdad" >Mayor de edad</string>
     <string name="MensajeRecordatorio" >Selecciona tu rango de edad</string>
+    <string name="TextoPrincipalPiscina" >" Piscina"</string>
+    <string name="PiscinaPrincipalPiscina" >"         Reglas en la piscina"</string>
+    <string name="AceptarReglas" >Conozco y me comprometo a cumplir las reglas</string>
+    <string name="ReglasPiscina" >"1.\tEl uso de la piscina está permitido de 09:00 a 19:00. 2.\tNo se admiten animales. 3.\tEl acceso a la zona de la piscina sólo está permitido con chanclas. 4.\tEs obligatorio darse una ducha enjabonada antes de entrar en el agua. 5.\tTodos los objetos personales deben guardarse en una bolsa. 6.\tSe prohíbe el uso de aletas, máscaras, botes, colchones inflables, pelotas y juegos en general. 7.\tLa música sólo puede escucharse con auriculares. "</string>
 </resources>
