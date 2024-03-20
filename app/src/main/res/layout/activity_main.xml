@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:backgroundTint="#9C27B0"
+    android:outlineAmbientShadowColor="#673AB7"
+    android:outlineSpotShadowColor="#3F51B5"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,7 +18,9 @@
         android:layout_marginTop="27dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="412dp"
+        android:background="#6FB4CB"
         android:orientation="vertical"
+        android:outlineAmbientShadowColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -30,6 +35,7 @@
             android:contentDescription="@string/TextoIngresarEmail"
             android:fontFamily="casual"
             android:text="@string/TextoIngresarEmail"
+            android:textColor="#AD1457"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -43,6 +49,7 @@
             android:hint="@string/TextoIngresarEmail"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
+            android:textColorHint="#4E342E"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
         <CheckBox
@@ -53,6 +60,7 @@
             android:fontFamily="casual"
             android:onClick="cambiarColor"
             android:text="@string/checkEmail"
+            android:textColor="#AD1457"
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
@@ -62,6 +70,7 @@
         android:layout_width="366dp"
         android:layout_height="183dp"
         android:layout_marginBottom="319dp"
+        android:background="#6FB4CB"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,6 +87,7 @@
             android:contentDescription="@string/passwordvalue"
             android:fontFamily="casual"
             android:text="@string/passwordvalue"
+            android:textColor="#AD1457"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -91,6 +101,8 @@
             android:fontFamily="monospace"
             android:hint="@string/passwordvalue"
             android:inputType="textPassword"
+            android:textColor="#E91E63"
+            android:textColorHint="#4E342E"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Switch
@@ -103,6 +115,7 @@
             android:minHeight="48dp"
             android:onClick="Verpassword"
             android:text="@string/VerPassword"
+            android:textColor="#AD1457"
             android:textStyle="bold"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
     </LinearLayout>
@@ -115,6 +128,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="89dp"
         android:layout_marginBottom="96dp"
+        android:background="#6FB4CB"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,24 +139,26 @@
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="210dp"
+            android:layout_width="188dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#E91E63"
             android:contentDescription="@string/TerminarRegistro"
             android:onClick="Lineal_layout"
             android:outlineAmbientShadowColor="#2196F3"
-            app:srcCompat="@android:drawable/checkbox_on_background" />
+            app:srcCompat="@android:drawable/checkbox_on_background"
+            tools:ignore="ImageContrastCheck" />
 
     </LinearLayout>
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="405dp"
-        android:layout_height="129dp"
+        android:layout_width="393dp"
+        android:layout_height="130dp"
+        android:background="#6FB4CB"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="2dp">
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <ImageButton
             android:id="@+id/MenuOpciones"
@@ -153,7 +169,8 @@
             android:outlineAmbientShadowColor="#ED81A6"
             android:outlineSpotShadowColor="#00BCD4"
             app:srcCompat="@android:drawable/ic_input_add"
-            app:tint="#00BCD4" />
+            app:tint="#00BCD4"
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/TextoRegistro"
@@ -164,9 +181,10 @@
             android:contentDescription="@string/TextoRegistro"
             android:fontFamily="cursive"
             android:text="@string/TextoRegistro"
-            android:textSize="60sp"
+            android:textColor="#455A64"
+            android:textSize="80sp"
             android:textStyle="bold|italic"
-            tools:ignore="MissingConstraints"
+            tools:ignore="MissingConstraints,TextSizeCheck"
             tools:text="@string/TextoRegistro" />
 
     </TableRow>

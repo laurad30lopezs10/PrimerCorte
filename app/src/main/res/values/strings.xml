@@ -6,14 +6,18 @@
     <string name="passwordvalue">Create a password</string>
     <string name="VerPassword">Verify Password</string>
     <string name="TerminarRegistro">Finalice el registro oprimiento el siguente boton</string>
-    <string name="guardaremail">There are no register emails</string>
-    <string name="guardarpassword">there are no password created</string>
     <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
     <string name="ItemSedes">SEDES</string>
     <string name="ItemMesajes">Messages</string>
     <string name="ItemLocalizacion">Location</string>
     <string name="ItemBloquear">Block</string>
     <string name="ItemFotoPerfil">Profile picture</string>
-    <string name="NombreHotel" />
+    <string name="NombreHotel" >Elegant Suits Hotel</string>
     <string name="MensajeIntroduccion" >We welcome you to our wet areas area, we have a great variety for you, then you can reserve your space in one of your choice.</string>
+    <string name="TurcoButton" >Turco</string>
+    <string name="PiscinaButton" >Pool</string>
+    <string name="SaunaButton" >Sauna</string>
+    <string name="MenorEdad" >Young</string>
+    <string name="MayorEdad" >Adult</string>
+    <string name="MensajeRecordatorio" >Select your age range</string>
 </resources>

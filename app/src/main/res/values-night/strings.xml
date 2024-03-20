@@ -4,13 +4,17 @@
     <string name="checkEmail" >Verify email</string>
     <string name="VerPassword" >Verify password</string>
     <string name="TerminarRegistro">Finalice el registro oprimiento el siguente boton</string>
-    <string name="guardaremail" >There are no registered emails</string>
-    <string name="guardarpassword" >There are no password created</string>
     <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
     <string name="ItemSedes" >SEDES</string>
     <string name="ItemMesajes" >News</string>
     <string name="ItemLocalizacion" >Location</string>
     <string name="ItemFotoPerfil" >Profile picture</string>
-    <string name="NombreHotel" />
-    <string name="MensajeIntroduccion" />
+    <string name="NombreHotel" >Elegant suits</string>
+    <string name="MensajeIntroduccion" >We welcome you to our wet areas area, we have a great variety for you, below you can register the entry to one of our wet areas</string>
+    <string name="TurcoButton" >Turco</string>
+    <string name="PiscinaButton" >Pool</string>
+    <string name="SaunaButton" >Sauna</string>
+    <string name="MenorEdad" >young</string>
+    <string name="MayorEdad" >Adult</string>
+    <string name="MensajeRecordatorio" >Select your age rage</string>
 </resources>

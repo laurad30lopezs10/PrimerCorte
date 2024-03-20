@@ -7,14 +7,18 @@
     <string name="passwordvalue">Crear una contraseña</string>
     <string name="VerPassword" >Verificar Contraseña</string>
     <string name="TerminarRegistro">Finalice el registro oprimiento el siguente boton</string>
-    <string name="guardaremail" >No hay emails registrados</string>
-    <string name="guardarpassword" >No hay contraseñas creadas</string>
     <string name="OpcionesImagenes">Se muestran varias opciones de imagines</string>
     <string name="ItemSedes" >Ubication</string>
     <string name="ItemMesajes" >Noricias</string>
     <string name="ItemLocalizacion" >Localizacion</string>
     <string name="ItemFotoPerfil" >Foto de perfil</string>
     <string name="ItemBloquear">Bloquear</string>
-    <string name="NombreHotel" />
-    <string name="MensajeIntroduccion" >Te damos la bienvenida a nuestra area de zonas humedas tenemos una gran variedad para ti, a contiuacion podras reservar tu espacio en alguna de tu eleccion.</string>
+    <string name="NombreHotel" >Hotel Elegant Suits</string>
+    <string name="MensajeIntroduccion" >Te damos la bienvenida a nuestra area de zonas humedas tenemos una gran variedad para ti, a contiuacion podras registrar el increso a algun de nuestras zonas huemdas</string>
+    <string name="TurcoButton" >Turco</string>
+    <string name="PiscinaButton" >Piscina</string>
+    <string name="SaunaButton" >Sauna</string>
+    <string name="MenorEdad" >Menor de edad</string>
+    <string name="MayorEdad" >Mayor de edad</string>
+    <string name="MensajeRecordatorio" >Selecciona tu rango de edad</string>
 </resources>
