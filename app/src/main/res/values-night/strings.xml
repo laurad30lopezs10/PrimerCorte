@@ -22,4 +22,6 @@
     <string name="AceptarReglas" >I know and agree to comply with the rules</string>
     <string name="textoprincipalMasajes" >rules in the massage room</string>
     <string name="ReglasEspecificasMasajes" >1. The spa is a place of relaxation and tranquility. Silence is requested. 2. It is mandatory to bring swimwear, appropriate footwear (flip flops for pool/spa use only) and a towel for personal use. We have flip flops for sale and towels for rent at the spa reception if necessary.</string>
+    <string name="Reglassauna" >Rules in the Sauna</string>
+    <string name="RglasEspecificasSauna" >Before entering the sauna you should take a shower and dry yourself well. It is not recommended to go to the sauna on a full stomach or on an empty stomach. It is recommended not to go to the sauna immediately after playing sports. The most important thing is to enjoy and enter the sauna relaxed, without stress.</string>
 </resources>

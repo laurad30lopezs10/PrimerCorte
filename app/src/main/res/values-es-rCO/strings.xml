@@ -22,9 +22,11 @@
     <string name="MayorEdad" >Mayor de edad</string>
     <string name="MensajeRecordatorio" >Selecciona tu rango de edad</string>
     <string name="TextoPrincipalPiscina" >" Piscina"</string>
-    <string name="PiscinaPrincipalPiscina" >"         Reglas en la piscina"</string>
+    <string name="PiscinaPrincipalPiscina" >" Reglas en la piscina"</string>
     <string name="AceptarReglas" >Conozco y me comprometo a cumplir las reglas</string>
     <string name="ReglasPiscina">1. Se permite el uso de la piscina de 09:00 a 19:00 horas. 2. No se permiten animales. 3. Sólo se permite el acceso a la zona de la piscina con chanclas. 4. Es obligatorio darse una ducha con jabón antes de entrar al agua.</string>
     <string name="textoprincipalMasajes">reglas en la sala de masajes</string>
     <string name="ReglasEspecificasMasajes" >1. El spa es un lugar de relax y tranquilidad. Se ruega silencio. 2. Obligatorio llevar ropa de baño, calzado adecuado (chanclas de uso exclusivo piscina/spa) y toalla de uso personal. Tenemos chanclas a la venta y toallas de alquiler en la recepción spa si fuera necesario. Recomendamos el uso de gorro de piscina. 3. Circuito Spa sólo para personas adultas. Nuestros circuitos son sólo para mayores de 16 años. 4. El Spa es un lugar libre de humo, por ello no está permitido fumar.</string>
+    <string name="Reglassauna" >"Reglas en el sauna "</string>
+    <string name="RglasEspecificasSauna" >Antes de entrar a la sauna se debería tomar una duch y secarse bien. No se recomienda ir a la sauna con el estómago lleno y tampoco con el estómago vacío. Se recomiendo no ir a la sauna inmediatamente después de hacer deporte. Lo más importante es disfrutar y entrar a la sauna ya relajado/a, sin estrés.</string>
 </resources>

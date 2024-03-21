@@ -64,7 +64,7 @@
             android:fontFamily="casual"
             android:text="@string/PiscinaPrincipalPiscina"
             android:textColor="#AD1457"
-            android:textSize="24sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
         <TextView

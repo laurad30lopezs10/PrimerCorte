@@ -21,9 +21,11 @@
     <string name="MayorEdad">Adult</string>
     <string name="MensajeRecordatorio">Select your age range</string>
     <string name="TextoPrincipalPiscina">Poll</string>
-    <string name="PiscinaPrincipalPiscina" >"         Rules in the pool"</string>
+    <string name="PiscinaPrincipalPiscina" >" Rules in the pool"</string>
     <string name="AceptarReglas" >I know and agree to comply with the rules</string>
     <string name="textoprincipalMasajes" >Rules in the massage</string>
     <string name="ReglasEspecificasMasajes" >1. The spa is a place of relaxation and tranquility. Silence is requested. 2. It is mandatory to bring swimwear, appropriate footwear (flip flops for pool/spa use only) and a towel for personal use. We have flip flops for sale and towels for rent at the spa reception if necessary. We recommend the use of a pool cap. 3. Spa Circuit for adults only. Our circuits are only for people over 16 years old. 4. The Spa is a smoke-free place, therefore smoking is not allowed. 5. Nudism is not allowed. 6. The use of the Spa facilities is not recommended for pregnant women and/or people undergoing medical treatment. Consult with staff. 7. It is not permitted to use the facilities under the influence of alcohol, anticoagulants, antihistamines, vasoconstrictors, vasodilators, stimulants, narcotics, drugs and/or tranquilizers.</string>
     <string name="ReglasPiscina">1. Se permite el uso de la piscina de 09:00 a 19:00 horas. 2. No se permiten animales. 3. Sólo se permite el acceso a la zona de la piscina con chanclas. 4. Es obligatorio darse una ducha con jabón antes de entrar al agua.</string>
+    <string name="Reglassauna" >Rules in the sauna</string>
+    <string name="RglasEspecificasSauna" >Before entering the sauna you should take a shower and dry yourself well. It is not recommended to go to the sauna on a full stomach or on an empty stomach. It is recommended not to go to the sauna immediately after playing sports. The most important thing is to enjoy and enter the sauna relaxed, without stress.</string>
 </resources>

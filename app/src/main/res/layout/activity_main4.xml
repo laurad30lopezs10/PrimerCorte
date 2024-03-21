@@ -43,7 +43,7 @@
         android:onClick="SwichColor"
         android:text="@string/textoprincipalMasajes"
         android:textColor="#E91E63"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
